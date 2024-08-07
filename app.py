@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-from streamlit_option_menu import option_menu
+import option_menu
 import numpy as np
 import openai
 import tiktoken
-from io import BytesIO
+import BytesIO
 import base64
 
 
