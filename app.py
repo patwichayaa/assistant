@@ -59,7 +59,7 @@ def create_text_clustering_ui():
     # "Back to Home" button on the top right
     if st.button("Back to Home", key="back_to_home"):
         st.session_state.page = 'Home'
-        st.experimental_rerun()
+
     
     st.header("Text Clustering")
 
@@ -269,7 +269,7 @@ def main():
 
                 if st.button("Go To Text Clustering", key='text_clustering_button'):
                     st.session_state.page = 'Text Clustering'
-                    st.experimental_rerun()
+
 
             # Second column
             with col2:
