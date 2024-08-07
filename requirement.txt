@@ -1,6 +1,6 @@
-streamlit
-pandas
-streamlit-option-menu
-numpy
-openai
-tiktoken
+streamlit==1.18.1
+pandas==2.0.2
+streamlit-option-menu==0.1.0
+numpy==1.24.3
+openai==0.27.0
+tiktoken==0.1.3
